@@ -1,0 +1,11 @@
+{
+    "Run_start": 720617,
+    "APC_Up" : 0,
+    "APC_Down" : 1,
+    "LG_CC" : 2,
+    "LG_CL1" : 3,
+    "LG_CL2" : 4,
+    "Pad_Down ": 5, 
+    "Cherry ": 6, 
+    "Pad_Up ": 7 
+}

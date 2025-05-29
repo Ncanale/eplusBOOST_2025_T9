@@ -1,0 +1,64 @@
+{
+    "RunAllignment": 720734,
+    "d_12": 337,
+    "d_1c": 370,
+    "d_cM": 1.41,
+    "thM": 0.4,
+    "d_MLG": 631,
+    "offset_x2": 0.001,
+    "offset_y2": 0.001,
+    "div_12x": 0.001,
+    "div_12y": 0.001,
+    "slope_Calo": 202,
+    "intercept_Calo": -37,
+    "data_path_Swan": "/eos/project/i/insulab-como/testBeam/TB_2024_06_T9_OREO/HDF5",
+    "data_path_local_old": "./data/TB_T9_2024",
+    "data_path_local": "../sshfs",
+    "r_random": [],
+    "r_axial": [],
+    "r_scan": [
+        [],
+        [],
+        [],
+        []
+    ],
+    "scan_labels": [
+        "random",
+        "axial",
+        "",
+        "",
+        ""
+    ],
+    "n_bin_calo": 500,
+    "n_bin_APC1": 500,
+    "n_bin_APC2": 500,
+    "Calo_th": 500,
+    "APC1_th": 75,
+    "APC2_th": 75,
+    "Pos_X": [
+        3.5,
+        4.5
+    ],
+    "Pos_Y": [
+        3.5,
+        4.5
+    ],
+    "logi_time": [
+        91,
+        98
+    ],
+    "cut_calo": [
+        0,
+        0
+    ],
+    "cut_calo_calib": [
+        0.8,
+        0.8
+    ],
+    "cut_APC": [
+        75,
+        100
+    ],
+    "div_x": 800.9851198717129,
+    "div_y": 1509.4875827334101
+}
