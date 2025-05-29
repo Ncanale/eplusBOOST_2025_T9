@@ -12,8 +12,7 @@
     "slope_Calo": 202,
     "intercept_Calo": -37,
     "data_path_Swan": "/eos/project/i/insulab-como/testBeam/TB_2024_06_T9_OREO/HDF5",
-    "data_path_local_old": "./data/TB_T9_2024",
-    "data_path_local": "../sshfs",
+    "data_path_local": "./data/TB_T9_2024",
     "r_random": [],
     "r_axial": [],
     "r_scan": [

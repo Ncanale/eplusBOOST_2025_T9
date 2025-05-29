@@ -8,7 +8,7 @@ Material = None
 glob_cmap = 'jet'
 
 def update_config(run,year,material,Swan_h):
-    import Utils_v2
+    import Utils_v2 as Utils_v2
     import json
 
     Utils_v2.Swan = Swan_h
@@ -25,7 +25,7 @@ def update_config(run,year,material,Swan_h):
         json.dump(config_data, file, indent=4)
         
 def configurator(year,material,Swan_h):
-    import Utils_v2
+    import Utils_v2 as Utils_v2
     import json
 
     Utils_v2.Swan = Swan_h
