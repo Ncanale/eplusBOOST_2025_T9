@@ -242,13 +242,7 @@ def file_corrector(runs):
         # print('opening ', data_path) 
 
         with h5py.File(data_path, 'r', libver='latest', swmr=True) as hf:
-            #print(hf.keys())
-            # hf["xpos"].shape
             keys = list(hf.keys())
-            #for k in hf.keys():
-            #    comand = f'{k} = np.array(hf["{k}"])'
-                # print(comand)
-            #  exec(comand)
             pos.append(np.array(hf['xpos']))
             if Year == 00: #Simulations
                 phs.append(np.array(hf['ph'])) #23
