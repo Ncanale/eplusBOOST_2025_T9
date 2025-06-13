@@ -1,0 +1,5 @@
+# Ignore everything inside data/ and plots/
+data/
+plots/
+__pycache__/
+*.pyc
