@@ -3,6 +3,7 @@
 targetdir="/eos/project/c/crystal-ferrara/www/"
 currRunJson="single_run_number.json"
 sourcefile="check_signal_epBOOST"
+sourcefile2="check_signal_epBOOST"
 
 
 sleepsec=10
@@ -23,6 +24,7 @@ while true; do
         # Execute jupyter
         currFile="run${run_number}.html"
         echo $currFile
+        jupyter nbconvert --execute --to html ${sourcefile}.ipynb
         jupyter nbconvert --execute --to html ${sourcefile}.ipynb
         cp ${sourcefile}.html $targetdir/$currFile
         cp ${sourcefile}.html $targetdir/current.html

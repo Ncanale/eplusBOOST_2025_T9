@@ -1,3 +1,4 @@
 {
-  "scan_number" :  [730245,730224]
+  "scan_number" :  [730245,730224],
+  "scan_labels" : ["Axis", "Amorphous"]
 }
