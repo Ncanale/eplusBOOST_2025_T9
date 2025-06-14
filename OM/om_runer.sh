@@ -9,7 +9,7 @@ sourcefile="check_signal_epBOOST"
 sourcefile2="check_signal_epBOOST"
 
 
-sleepsec=10
+sleepsec=10git
 
 while true; do
 
