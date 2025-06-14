@@ -14,7 +14,7 @@ sleepsec=10
 while true; do
 
         # Detect current Run
-        filepath="$(ls -tr /eos/project/i/insulab-como/testBeam/TB_2025_06_T9_epBOOST/ASCII_MICHELA/ascii_daq_sshfs/*.dat  | tail -1>
+        filepath="$(ls -tr /eos/project/i/insulab-como/testBeam/TB_2025_06_T9_epBOOST/ASCII_MICHELA/ascii_daq_sshfs/*.dat  | tail -1)
         run_number="${filepath##*/}"
         run_number="${run_number#run}"
         run_number="${run_number%%_*}"
@@ -28,9 +28,10 @@ while true; do
         currFile="run${run_number}.html"
         echo $currFile
         jupyter nbconvert --execute --to html ${sourcefile}.ipynb
-        # jupyter nbconvert --execute --to html ${sourcefile2}.ipynb
+        jupyter nbconvert --execute --to html ${sourcefile2}.ipynb
         cp ${sourcefile}.html $targetdir/$currFile
         cp ${sourcefile}.html $targetdir/current.html
+        cp ${sourcefile2}.html $targetdir/Compare.html
 
         sleep ${sleepsec}s
 
