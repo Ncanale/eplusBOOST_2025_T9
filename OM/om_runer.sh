@@ -1,4 +1,7 @@
 #!/bin/bash
+export JUPYTER_CONFIG_DIR=/tmp/my_jupyter_config
+mkdir -p $JUPYTER_CONFIG_DIR
+
 
 targetdir="/eos/project/c/crystal-ferrara/www/"
 currRunJson="single_run_number.json"
@@ -25,7 +28,7 @@ while true; do
         currFile="run${run_number}.html"
         echo $currFile
         jupyter nbconvert --execute --to html ${sourcefile}.ipynb
-        jupyter nbconvert --execute --to html ${sourcefile}.ipynb
+        # jupyter nbconvert --execute --to html ${sourcefile2}.ipynb
         cp ${sourcefile}.html $targetdir/$currFile
         cp ${sourcefile}.html $targetdir/current.html
 
