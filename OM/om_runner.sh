@@ -6,7 +6,7 @@ mkdir -p $JUPYTER_CONFIG_DIR
 targetdir="/eos/project/c/crystal-ferrara/www/"
 currRunJson="single_run_number.json"
 sourcefile="check_signal_epBOOST"
-sourcefile2="commpare_epBOOST"
+sourcefile2="compare_epBOOST"
 
 
 sleepsec=180
