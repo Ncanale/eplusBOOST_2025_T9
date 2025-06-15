@@ -1,4 +1,5 @@
 {
-  "scan_number" :  [730245,730224,730247,730250,730251],
-  "scan_labels" : ["Axis 6GeV", "Amorphous like 6GeV", "Conventional 6GeV", "Conventional 2.86GeV","Conventional 2.86GeV-2"  ]
+  "scan_number" :  [730250,730253],
+  "scan_labels" : ["Conventional 2.86GeV", "Axis 2.86GeV"]
 }
+
