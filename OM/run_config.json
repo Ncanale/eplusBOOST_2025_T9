@@ -40,5 +40,12 @@
         "sample": "W12mm(source)",
         "type": "Amorphous",
         "energy": "6"
+    },
+    "730255": {
+        "x_cry_cut": [4.7, 5.2],
+        "y_cry_cut": [4.65, 5.15],
+        "sample": "W0.1mm",
+        "type": "Axial",
+        "energy": "6"
     }
 }
