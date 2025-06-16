@@ -1,0 +1,44 @@
+{
+    "730253": {
+        "x_cry_cut": [5, 5.2],
+        "y_cry_cut": [5, 5.15],
+        "sample": "W12mm(source)",
+        "type": "Axis",
+        "energy": "2.86"
+    },
+    "730251": {
+        "x_cry_cut": [4.6, 5.1],
+        "y_cry_cut": [4.7, 5.2],
+        "sample": "W15mm",
+        "type": "Conventional",
+        "energy": "2.86"
+    },
+    "730250": {
+        "x_cry_cut": [4.9, 5.1],
+        "y_cry_cut": [5, 5.15],
+        "sample": "W15mm",
+        "type": "Conventional",
+        "energy": "2.86"
+    },
+    "730247": {
+        "x_cry_cut": [4.6, 5.1],
+        "y_cry_cut": [4.7, 5.2],
+        "sample": "W15mm",
+        "type": "Conventional",
+        "energy": "6"
+    },
+    "730245": {
+        "x_cry_cut": [4.7, 5.2],
+        "y_cry_cut": [4.65, 5.15],
+        "sample": "W12mm(source)",
+        "type": "Axis",
+        "energy": "6"
+    },
+    "730224": {
+        "x_cry_cut": [4.7, 5.2],
+        "y_cry_cut": [4.65, 5.15],
+        "sample": "W12mm(source)",
+        "type": "Amorphous",
+        "energy": "6"
+    }
+}
