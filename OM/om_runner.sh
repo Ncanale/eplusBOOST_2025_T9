@@ -12,7 +12,8 @@ sleepsec=180
 while true; do
 
     # Detect current Run
-    filepath="$(ls -tr /eos/project/i/insulab-como/testBeam/TB_2025_06_T9_epBOOST/ASCII_MICHELA/ascii_daq_sshfs/*.dat | tail -1)"
+    filepath=$(find /eos/project/i/insulab-como/testBeam/TB_2025_06_T9_epBOOST/ASCII_MICHELA/ascii_daq_sshfs/ -name 'run*.dat' -printf '%T@ %p\n' | sort -n | tail -1 | awk '{print $2}')
+
     run_number="${filepath##*/}"
     run_number="${run_number#run}"
     run_number="${run_number%%_*}"
