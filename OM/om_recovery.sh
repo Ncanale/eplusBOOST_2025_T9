@@ -78,7 +78,7 @@ done
         echo "Processing run $run_number"
 
         # Aggiorna JSON
-        sed -i "s/\"run_number\": *[0-9]\+/\"run_number\": $run_number/" $currRunJson
+        echo "{ \"run_number\": $run }" > tmp_$currRunJson && mv tmp_$currRunJson $currRunJson
 
         # Esegui notebook
         currFile="run${run_number}.html"
