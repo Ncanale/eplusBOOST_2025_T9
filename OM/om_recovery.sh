@@ -5,7 +5,6 @@ mkdir -p "$JUPYTER_CONFIG_DIR"
 targetdir="/eos/project/c/crystal-ferrara/www/"
 currRunJson="single_run_number.json"
 sourcefile="check_signal_epBOOST"
-sourcefile2="compare_epBOOST"
 
 sleepsec=180
 start_run=730223
@@ -41,12 +40,10 @@ while true; do
         # Esegui notebook
         currFile="run${run_number}.html"
         jupyter nbconvert --execute --to html "${sourcefile}.ipynb"
-        jupyter nbconvert --execute --to html "${sourcefile2}.ipynb"
 
         # Copia i risultati
         cp "${sourcefile}.html" "$targetdir/$currFile"
         cp "${sourcefile}.html" "$targetdir/current.html"
-        cp "${sourcefile2}.html" "$targetdir/compare.html"
     done
 
     # Aggiorna il run iniziale per il prossimo ciclo
