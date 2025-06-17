@@ -14,7 +14,8 @@ start_run=730223
 
 while true; do
     # Trova il run più recente disponibile
-    filepath="$(ls -tr /eos/project/i/insulab-como/testBeam/TB_2025_06_T9_epBOOST/ASCII_MICHELA/ascii_daq_sshfs/*.dat | tail -1)"
+    filepath=$(find /eos/project/i/insulab-como/testBeam/TB_2025_06_T9_epBOOST/ASCII_MICHELA/ascii_daq_sshfs/ -name 'run*.dat' -printf '%T@ %p\n' | sort -n | tail -1 | awk '{print $2}')
+
     latest_run="${filepath##*/}"
     latest_run="${latest_run#run}"
     latest_run="${latest_run%%_*}"
