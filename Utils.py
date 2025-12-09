@@ -209,7 +209,7 @@ def file_corrector(runs):
     import numpy as np
     import h5py
     from collections.abc import Iterable
-    # print("Utils config file ./config_"+ str(Material) + '_' + str(Year)[2:] +".json")
+    print("Utils config file ./config_"+ str(Material) + '_' + str(Year)[2:] +".json")
     config_file = "./config_"+ str(Material) + '_' + str(Year)[2:] +".json"
     # print ('Swan ', Swan, config_file)
 
@@ -237,7 +237,7 @@ def file_corrector(runs):
     for run in runs:
         
         data_path = f'{data_dir}/run{run}.h5'
-        # print('opening ', data_path) 
+        print('opening ', data_path) 
 
         with h5py.File(data_path, 'r', libver='latest', swmr=True) as hf:
             #print(hf.keys())

@@ -4,160 +4,258 @@
         "y_cry_cut": [7, 7.5],
         "sample": "W12mm",
         "type": "Axis",
-        "energy": "2.86"
+        "energy": "-2.86"
     },
     "730251": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W15mm",
         "type": "Conventional",
-        "energy": "2.86"
+        "energy": "-2.86"
     },
     "730250": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W15mm",
         "type": "Conventional",
-        "energy": "2.86"
+        "energy": "-2.86"
     },
     "730247": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W15mm",
         "type": "Conventional",
-        "energy": "6"
+        "energy": "-6"
     },
     "730245": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W12mm",
         "type": "Axis",
-        "energy": "6"
+        "energy": "-6"
     },
     "730224":  {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W12mm",
         "type": "Amorphous",
-        "energy": "6"
+        "energy": "-6"
     },
     "730255": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W0.1mm",
-        "type": "Axial",
-        "energy": "6"
+        "type": "Axis",
+        "energy": "-6"
     },
     "730256": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W0.1mm",
         "type": "Amorphous",
-        "energy": "6"
+        "energy": "-6"
     },
     "730259": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W0.1mm",
         "type": "guess - 5mrad rot",
-        "energy": "6"
+        "energy": "-6"
     },
     "730260": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W0.1mm",
         "type": "guess + 5mrad rot",
-        "energy": "6"
+        "energy": "-6"
     },
     "730264": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W0.1mm",
         "type": "rot search ",
-        "energy": "6"
+        "energy": "-6"
     },
     "730265": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W0.1mm",
         "type": "rot search ",
-        "energy": "6"
+        "energy": "-6"
     },
     "730266": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W0.1mm",
         "type": "rot search ",
-        "energy": "6"
+        "energy": "-6"
     },
     "730267": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "W0.1mm",
         "type": "rot search ",
-        "energy": "6"
+        "energy": "-6"
     },
     "730271": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "Background",
         "type": "bkg",
-        "energy": "6"
+        "energy": "-6"
     },
     "730272": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
         "sample": "Background",
         "type": "bkg",
-        "energy": "2.86"
+        "energy": "-2.86"
     },
     "730276": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
-        "sample": "W12",
-        "type": "Axial",
-        "energy": "2.86"
+        "sample": "W12mm",
+        "type": "Axis",
+        "energy": "-2.86"
     },
     "730278": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
-        "sample": "W0.1",
+        "sample": "W0.1mm",
         "type": "rot search",
-        "energy": "6"
+        "energy": "-6"
     },
     "730279": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
-        "sample": "W0.1",
+        "sample": "W0.1mm",
         "type": "rot search",
-        "energy": "6"
+        "energy": "-6"
     },
     "730285": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
-        "sample": "W0.1",
+        "sample": "W0.1mm",
         "type": "rot search",
-        "energy": "6"
+        "energy": "-6"
     },
     "730286": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
-        "sample": "W0.1",
+        "sample": "W0.1mm",
         "type": "rot search",
-        "energy": "6"
+        "energy": "-6"
     },
     "730287": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
-        "sample": "W0.1",
+        "sample": "W0.1mm",
         "type": "rot search far",
-        "energy": "6"
+        "energy": "-6"
     },
     "730289": {
         "x_cry_cut": [4.5, 5],
         "y_cry_cut": [7, 7.5],
-        "sample": "W0.1",
+        "sample": "W0.1mm",
         "type": "rot search far",
-        "energy": "6"
+        "energy": "-6"
+    },
+    "730319": {
+        "x_cry_cut": [4.5, 5],
+        "y_cry_cut": [7, 7.5],
+        "sample": "W15mm",
+        "type": "Conventional",
+        "energy": "-2.86"
+    },
+    "730323": {
+        "x_cry_cut": [4.5, 5],
+        "y_cry_cut": [7, 7.5],
+        "sample": "W12mm",
+        "type": "Amorphous",
+        "energy": "-2.86"
+    },
+    "730328": {
+        "x_cry_cut": [4.3, 4.8],
+        "y_cry_cut": [7, 7.5],
+        "sample": "Hybrid",
+        "type": "Axis",
+        "energy": "-2.86"
+    },
+    "730330": {
+        "x_cry_cut": [4.3, 4.8],
+        "y_cry_cut": [7, 7.5],
+        "sample": "Hybrid",
+        "type": "Amorphous",
+        "energy": "-2.86"
+    },
+    "730350": {
+        "x_cry_cut": [4.3, 4.8],
+        "y_cry_cut": [7, 7.5],
+        "sample": "Hybrid",
+        "type": "Axis",
+        "energy": "-2.86"
+    },
+    "730352": {
+        "x_cry_cut": [4.3, 4.8],
+        "y_cry_cut": [7, 7.5],
+        "sample": "Hybrid",
+        "type": "Amorphous",
+        "energy": "-2.86"
+    },
+    "730357": {
+        "x_cry_cut": [4.3, 4.8],
+        "y_cry_cut": [7, 7.5],
+        "sample": "Hybrid",
+        "type": "Amorphous",
+        "energy": "-2.86"
+    },
+    "730378": {
+        "x_cry_cut": [4.4, 5.1],
+        "y_cry_cut": [6.9, 7.5],
+        "sample": "W100um",
+        "type": "Axial",
+        "energy": "-2.86"
+    },
+    "730379": {
+        "x_cry_cut": [4.4, 5.1],
+        "y_cry_cut": [6.9, 7.5],
+        "sample": "W100um",
+        "type": "Amorphous",
+        "energy": "-2.86"
+    },
+    "730384 ": {
+        "x_cry_cut": [4.4, 5.1],
+        "y_cry_cut": [6.9, 7.5],
+        "sample": "W100um",
+        "type": "Axial",
+        "energy": "-2.86"
+    },
+    "730383": {
+        "x_cry_cut": [4.4, 5.1],
+        "y_cry_cut": [6.9, 7.5],
+        "sample": "W100um",
+        "type": "Amorphous",
+        "energy": "-2.86"
+    },
+    "730385": {
+        "x_cry_cut": [4.4, 5.1],
+        "y_cry_cut": [6.9, 7.5],
+        "sample": "W100um",
+        "type": "Axial",
+        "energy": "-2.86"
+    },
+    "730386": {
+        "x_cry_cut": [4.4, 5.1],
+        "y_cry_cut": [6.9, 7.5],
+        "sample": "W100um",
+        "type": "Positron--AX",
+        "energy": "-2.86"
+    },
+    "730388": {
+        "x_cry_cut": [4.4, 5.1],
+        "y_cry_cut": [6.9, 7.5],
+        "sample": "W100um",
+        "type": "Positron--AM",
+        "energy": "-2.86"
     }
 }
