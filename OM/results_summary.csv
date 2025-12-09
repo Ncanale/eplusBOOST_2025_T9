@@ -1,0 +1,10 @@
+Config,NCLU_ch3 Axis / Amorphous [%],QTOT_ch3 Axis / Amorphous [%],NCLU_ch3 Axis / Conventional [%],QTOT_ch3 Axis / Conventional [%],NCLU_ch3 Amorphous / Conventional [%],QTOT_ch3 Amorphous / Conventional [%],NCLU_x4 Axis / Amorphous [%],QTOT_x4 Axis / Amorphous [%],NCLU_x4 Axis / Conventional [%],QTOT_x4 Axis / Conventional [%],NCLU_x4 Amorphous / Conventional [%],QTOT_x4 Amorphous / Conventional [%]
+W12mm-2.86GeV_cut_theta_False,103.25,101.95,109.42,112.96,105.98,110.81,99.37,95.92,100.8,104.37,101.44,108.81
+W12mm-6GeV_cut_theta_False,116.67,114.6,110.28,115.83,94.52,101.08,99.44,106.89,101.14,109.05,101.71,102.03
+Hybrid-2.86GeV_cut_theta_False,104.67,104.58,108.46,112.22,103.62,107.31,96.33,99.23,99.3,105.06,103.08,105.87
+Hybrid-2.86GeV_cut_theta_True,106.11,106.27,110.25,114.1,103.9,107.37,96.23,100.2,99.31,99.43,103.2,99.23
+W12mm-2.86GeV_cut_theta_True,104.08,103.53,110.3,114.72,105.98,110.81,100.46,107.45,101.9,116.92,101.44,108.81
+W12mm-6GeV_cut_theta_True,,,,,,,100.78,95.98,102.51,97.93,101.71,102.03
+W12mm--6GeV_cut_theta_True,116.85,116.15,110.45,117.4,94.52,101.08,100.78,95.98,102.51,97.93,101.71,102.03
+W12mm--2.86GeV_cut_theta_True,104.08,103.53,110.3,114.72,105.98,110.81,100.46,107.45,101.9,116.92,101.44,108.81
+Hybrid--2.86GeV_cut_theta_True,105.62,105.09,110.25,114.1,104.38,108.57,96.8,96.57,99.31,99.43,102.6,102.97
